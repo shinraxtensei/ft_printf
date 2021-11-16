@@ -1,8 +1,9 @@
 #include"ft_printf.h"
 
+
 void	ft_putnbr(int n)
 {
-	long int	i;
+	long	i;
 
 	i = n;
 	if (i < 0)

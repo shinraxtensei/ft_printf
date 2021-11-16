@@ -1,8 +1,8 @@
 #include"ft_printf.h"
 
-void	ft_putnbr_u(int n)
+void	ft_putnbr_u(unsigned int n)
 {
-	unsigned int	i;
+	unsigned long	i;
 
 	i = n;
 	if (i < 0)

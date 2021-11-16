@@ -1,4 +1,4 @@
-#include"libft.h"
+
 #include"ft_printf.h"
 
 void    ft_write(char format, const void *arg)
@@ -11,6 +11,10 @@ void    ft_write(char format, const void *arg)
         ft_putnbr((int)arg);
     else if (format == 'u')
         ft_putnbr_u((unsigned int)arg);
+    else if (format == 'x')
+        ft_print_hexa_lower((int)arg);
+    else if (format == 'X')
+        ft_print_hexa_upper((int)&arg);
 }
 
 int ft_printf(const char *str, ...)
