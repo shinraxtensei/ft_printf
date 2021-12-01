@@ -6,12 +6,12 @@
 /*   By: ahouari <ahouari@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/20 16:29:19 by ahouari           #+#    #+#             */
-/*   Updated: 2021/11/21 08:30:04 by ahouari          ###   ########.fr       */
+/*   Updated: 2021/12/01 14:04:14 by ahouari          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include"ft_printf.h"
-
+#include<stdio.h>
 static void	ft_write_value(char format, const void *arg, int *len )
 {
 	if (format == 'c')
@@ -59,4 +59,10 @@ int	ft_printf(const char *str, ...)
 	}
 	va_end(lst);
 	return (len);
+}
+int main ()
+{
+
+ft_printf("%x",-1);
+
 }
