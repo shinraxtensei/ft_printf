@@ -1,0 +1,6 @@
+                              the goal of this project is to duplicate the function "printf" in c
+
+don't worry its not that complicate !
+
+all u have to do is to work with variadic functions in this way, u can enter an infinite number of arguments into your ft_printf function
+creat a function that prints digits (%d), one for character (%c) , one for integers(%d) , one for the hexadecimal numbers (%x/X) also one for strings (%s)
